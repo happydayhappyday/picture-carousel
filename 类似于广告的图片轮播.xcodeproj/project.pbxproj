@@ -15,6 +15,11 @@
 		2D043B891E4B37B3008B9D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D043B871E4B37B3008B9D2D /* LaunchScreen.storyboard */; };
 		2D043B941E4B37B3008B9D2D /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D043B931E4B37B3008B9D2D /* __________Tests.m */; };
 		2D043B9F1E4B37B3008B9D2D /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D043B9E1E4B37B3008B9D2D /* __________UITests.m */; };
+		2D043BBD1E4B44B4008B9D2D /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D043BB81E4B44B4008B9D2D /* img_01.png */; };
+		2D043BBE1E4B44B4008B9D2D /* img_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D043BB91E4B44B4008B9D2D /* img_02.png */; };
+		2D043BBF1E4B44B4008B9D2D /* img_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D043BBA1E4B44B4008B9D2D /* img_03.png */; };
+		2D043BC01E4B44B4008B9D2D /* img_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D043BBB1E4B44B4008B9D2D /* img_04.png */; };
+		2D043BC11E4B44B4008B9D2D /* img_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D043BBC1E4B44B4008B9D2D /* img_05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		2D043B9A1E4B37B3008B9D2D /* 类似于广告的图片轮播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "类似于广告的图片轮播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D043B9E1E4B37B3008B9D2D /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
 		2D043BA01E4B37B3008B9D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D043BB81E4B44B4008B9D2D /* img_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_01.png; sourceTree = "<group>"; };
+		2D043BB91E4B44B4008B9D2D /* img_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_02.png; sourceTree = "<group>"; };
+		2D043BBA1E4B44B4008B9D2D /* img_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_03.png; sourceTree = "<group>"; };
+		2D043BBB1E4B44B4008B9D2D /* img_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_04.png; sourceTree = "<group>"; };
+		2D043BBC1E4B44B4008B9D2D /* img_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_05.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		2D043B781E4B37B3008B9D2D /* 类似于广告的图片轮播 */ = {
 			isa = PBXGroup;
 			children = (
+				2D043BAC1E4B426B008B9D2D /* Resoure */,
 				2D043B7C1E4B37B3008B9D2D /* AppDelegate.h */,
 				2D043B7D1E4B37B3008B9D2D /* AppDelegate.m */,
 				2D043B7F1E4B37B3008B9D2D /* ViewController.h */,
@@ -138,6 +149,18 @@
 				2D043BA01E4B37B3008B9D2D /* Info.plist */,
 			);
 			path = "类似于广告的图片轮播UITests";
+			sourceTree = "<group>";
+		};
+		2D043BAC1E4B426B008B9D2D /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				2D043BB81E4B44B4008B9D2D /* img_01.png */,
+				2D043BB91E4B44B4008B9D2D /* img_02.png */,
+				2D043BBA1E4B44B4008B9D2D /* img_03.png */,
+				2D043BBB1E4B44B4008B9D2D /* img_04.png */,
+				2D043BBC1E4B44B4008B9D2D /* img_05.png */,
+			);
+			path = Resoure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D043BC01E4B44B4008B9D2D /* img_04.png in Resources */,
 				2D043B891E4B37B3008B9D2D /* LaunchScreen.storyboard in Resources */,
+				2D043BBE1E4B44B4008B9D2D /* img_02.png in Resources */,
+				2D043BBF1E4B44B4008B9D2D /* img_03.png in Resources */,
 				2D043B861E4B37B3008B9D2D /* Assets.xcassets in Resources */,
+				2D043BBD1E4B44B4008B9D2D /* img_01.png in Resources */,
+				2D043BC11E4B44B4008B9D2D /* img_05.png in Resources */,
 				2D043B841E4B37B3008B9D2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
